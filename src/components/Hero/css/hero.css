@@ -1,0 +1,105 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins&family=Roboto:wght@300;700&display=swap');
+
+.hero {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.hero .hero-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero .hero-text h1 {
+  font-size: 60px;
+  color: #303030;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero .hero-text p {
+  line-height: 35px;
+  font-size: 17px;
+  color: #303030;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero .hero-text .buttons button {
+  width: auto;
+  padding: 17px 35px;
+  background: transparent;
+  border: 1px solid #2CC068;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  margin: 20px 5px;
+  font-weight: bold;
+}
+
+.hero .hero-text .buttons button:nth-child(1) {
+  background-color: #2CC068;
+  color: #fff;
+  margin-left: 0;
+}
+
+.hero .hero-text .buttons button:nth-child(2) {
+  color: #2CC068;
+}
+
+.hero .hero-img {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-img img {
+  width: 50%;
+}
+
+.hero .hero-img img:nth-child(2) {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  margin-top: 40px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  .hero .hero-img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+  }
+
+  .hero .hero-text, .hero .hero-img {
+    width: 100%;
+  }
+
+  .hero .hero-img {
+    display: none;
+  }
+
+  .hero .hero-img img {
+    width: 40%;
+  }
+
+  .hero .hero-text .buttons button:nth-child(2) {
+    margin-left: 10px;
+  }
+}
