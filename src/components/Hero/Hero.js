@@ -14,8 +14,9 @@ const Hero = () => {
               In November 2020, 2287 developers from Morocco 🇲🇦 told us about their jobs satisfaction, salaries, and community contribution, how they learn and level up, which tools they’re using, and what they want to learn next.
             </p>
             <div className="buttons">
-              <button>Read the report</button>
-              <button>Watch GeeksBlabla episode</button>
+              <a href="#overview">
+                <button>Read the report</button>
+              </a>
             </div>
           </div>
           <div className="hero-img">

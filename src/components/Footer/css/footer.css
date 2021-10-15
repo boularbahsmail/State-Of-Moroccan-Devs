@@ -1,0 +1,10 @@
+.footer footer {
+  padding: 20px;
+  margin: 15px 0;
+  margin-bottom: 0;
+}
+
+.footer footer h5 {
+  font-weight: initial;
+  font-size: 17px;
+}
