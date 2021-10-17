@@ -74,37 +74,52 @@ const Services = () => {
             <h1>4.Most commonly asked questions</h1>
             <br />
             <div className="details">
-              <details>
-                <summary>What is Blablaconf?</summary>
+              <details className="detail-item">
+                <summary>
+                  <span>What is Blablaconf?</span>
+                  <b className="openDetail"></b>
+                </summary>
                 <p>
                   BlablaConf is a community driven online conference, made by developers for developers. Blabla contains 5 tracks in 5 days, we discuss all the web related topics, from Web & UI/UX, Big Data & ML, Cloud, Security, Backend technologies, to Soft skills, with our speakers from different backgrounds and completely in our Moroccan Darija.
                 </p>
               </details>
 
-              <details>
-                <summary>How much does BlablaConf cost?</summary>
+              <details id="detail-item">
+                <summary>
+                <span>How much does BlablaConf cost?</span>
+                <b className="openDetail"></b>
+                </summary>
                 <p>
                   BlablaConf is 100% FREE.
                   BlablaConf is bringing together a truly  speakers lineup to help each other find out more about different topics.  The caliber of speakers in Blabla could be seen in events costing thousands of MAD in Morocco and abroad.  As sharing is caring, we want this content to be accessible for everyone, for FREE.
                 </p>
               </details>
 
-              <details>
-                <summary>Will the talks be recorded?</summary>
+              <details className="detail-item">
+                <summary>
+                <span>Will the talks be recorded?</span>
+                <b className="openDetail"></b>
+                </summary>
                 <p>
                   A recording of the entire tracks and each session will be available after the end of the conference.
                 </p>
               </details>
 
-              <details>
-                <summary>How can I register to BlablaConf?</summary>
+              <details className="detail-item">
+                <summary>
+                <span>How can I register to BlablaConf?</span>
+                <b className="openDetail"></b>
+                </summary>
                 <p>
                   Registration for BlablaConf are open until the start of the conference, on October 25th, Grab you ticket.
                 </p>
               </details>
 
-              <details>
-                <summary>Where can I watch the sessions?</summary>
+              <details className="detail-item">
+                <summary>
+                <span>Where can I watch the sessions?</span>
+                <b className="openDetail"></b>
+                </summary>
                 <p>
                   Via Geeksblala's Youtube channel,  We will provide viewing details to all registrants prior to the event.
                 </p>
