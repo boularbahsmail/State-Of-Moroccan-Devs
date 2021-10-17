@@ -52,6 +52,10 @@
 }
 
 .bars.open span:nth-child(2) {
+  display: none
+}
+
+.bars.open span:nth-child(3) {
   transform: rotate(45deg);
   transform-origin: center;
   margin-top: -6px;

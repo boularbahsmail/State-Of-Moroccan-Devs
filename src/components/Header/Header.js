@@ -28,7 +28,8 @@ const Header = () => {
               <a href="">{brandName}</a>
             </h2>
 
-            <div className={`bars ${isHamMenuOpen ? "open" : ""}`} onClick={() => setIsHamMenuOpen(!isHamMenuOpen)}>
+            <div className={`bars ${isHamMenuOpen ? "open" : ""}`} onClick={() => setIsHamMenuOpen(!isHamMenuOpen)} title="Menu">
+              <span></span>
               <span></span>
               <span></span>
             </div>

@@ -30,6 +30,14 @@
   text-align: left;
 }
 
+.services .cards .card p::selection {
+  background: #070707;
+}
+
+.services .cards .card h2::selection {
+  background: #070707;
+}
+
 .services .cards .card img {
   height: 120px;
 }
@@ -76,11 +84,22 @@
     color: #fff;
     list-style: none;
     font-weight: bold;
-    letter-spacing: 1px;
-    word-spacing: 2px;
+    word-spacing: 2.5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.services .questions .details details summary span::selection {
+  background: #070707;
+}
+
+.services .questions .details details p {
+  cursor: text;
+}
+
+.services .questions .details details p::selection {
+  background: #070707;
 }
 
 .services .questions .details details summary b {

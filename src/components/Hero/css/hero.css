@@ -45,6 +45,7 @@
   color: #fff;
   margin-left: 0;
   background: linear-gradient(to left,  #2CC068, #2AA068);
+  box-shadow: 0 34px 30px rgb(48 161 20 / 8%);
 }
 
 .hero .hero-img {

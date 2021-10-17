@@ -22,6 +22,12 @@ html, body {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+  transition: 0.3s;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -59,9 +65,10 @@ p {
 button:hover {
   transform: scale(1.02);
 }
-
+/*
 @media only screen and (max-width: 600px) {
   * {
     cursor: none;
   }
 }
+*/
