@@ -1,5 +1,5 @@
 import React from 'react';
-import moroccanTarbouch from './images/Fez-Hat.png';
+import kids from './images/boyandgirl.png';
 import smile from './images/smile.png';
 
 // Import css
@@ -15,12 +15,12 @@ const Hero = () => {
             </p>
             <div className="buttons">
               <a href="#overview">
-                <button>Read the report</button>
+                <button title="Overview">Read the report</button>
               </a>
             </div>
           </div>
           <div className="hero-img">
-            <img src={moroccanTarbouch} alt="Fez Hat" title="Fez Hat" />
+            <img src={kids} alt="Mgharba" title="Boy & Girl" />
             {/*<img src={smile} />*/}
           </div>
         </div>

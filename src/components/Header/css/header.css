@@ -1,3 +1,104 @@
-.header {
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+.header header {
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-top: 0;
+}
+
+.header header a {
+  text-decoration: none;
+  color: #252525;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.header header h2 a {
+  margin: 0;
+}
+
+.header header .bars {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  display: none;
+}
+
+.header header .bars span {
+  height: 2px;
+  width: 30px;
+  background: #303030;
+  margin: 4px 0;
+  transition: 0.2s;
+}
+
+.header header .nav {
+  background: transparent;
+}
+
+.header header .nav.open {
+  display: flex;
+}
+
+.bars.open span:nth-child(1) {
+  width: 100%;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  background: #fff;
+}
+
+.bars.open span:nth-child(2) {
+  transform: rotate(45deg);
+  transform-origin: center;
+  margin-top: -6px;
+  background: #fff;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  z-index: 99;
+}
+
+.nav h2 {
+  display: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header header .bars {
+      display: flex;
+      z-index: 99;
+  }
+
+  .nav h2 {
+    display: block;
+    font-size: 18px;
+  }
+
+  .header header .nav {
+    background: #2CC068;
+    padding: 20px 0;
+    width: 100%;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -18px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  .header header .nav a {
+    margin: 15px 25px;
+    color: #fff;
+    transition: 0.3s;
+  }
 }

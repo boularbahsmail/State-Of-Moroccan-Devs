@@ -8,6 +8,8 @@ import Services from './components/Services/Services';
 import Footer from './components/Footer/Footer';
 
 function App() {
+  const [isHamMenuOpen, setIsHamMenuOpen] = useState(false);
+
   return (
     <center>
       <div className="container">

@@ -7,6 +7,7 @@ const Overview = () => {
     return (
         <div className="overview" id="overview">
           <div className="overview1">
+            <div className="divider"></div>
             <h1>1.Overview</h1>
             <p>
               Since its founding, developer circles Morocco community aims to be the place for Moroccan developers to learn new things, share knowledge and move the IT community forward. We were always thinking about how to best serve the community, and along the way, we needed to understand it.
@@ -54,6 +55,7 @@ const Overview = () => {
             </p>
           </div>
           <div className="profile" id="profile">
+            <div className="divider"></div>
             <h1>2.Profile</h1>
             <p>
               The objective of this first section is to get insights about the profile and the skills of the people working in Software Engineering in Morocco. The majority of the people that answered the survey are men. Also, the majority of the respondents are junior developers with less than 3 years of experience and most of them are living in Morocco with plans to work abroad in the next 2 years.

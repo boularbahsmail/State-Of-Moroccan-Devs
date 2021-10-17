@@ -1,6 +1,18 @@
 .services {
   background: transparent;
-  padding: 0px 0;
+  text-align: left;
+}
+
+
+.services h1 {
+  font-size: 45px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.services p {
+  margin-bottom: 40px;
 }
 
 .services .cards {
@@ -9,33 +21,71 @@
 }
 
 .services .cards .card {
-  background: #fff;
+  background: #252525;
   padding: 30px 40px;
-  margin: 20px;
+  padding-bottom: 40px;
+  margin: 10px;
   border-radius: 10px;
-  box-shadow: 0 8px 60px #eee;
+  /* box-shadow: 0 8px 60px #eee; */
+  text-align: left;
 }
 
 .services .cards .card img {
-  height: 100px;
+  height: 120px;
+}
+
+.services .cards .card h2 {
+  color: #fff;
 }
 
 .services .cards .card p {
-  text-align: center;
+  text-align: left;
+  color: lightgray;
+  margin-bottom: auto;
 }
 
-.services .cards .card button {
-  width: auto;
-  padding: 17px 35px;
-  background: transparent;
-  border: 1px solid #2CC068;
-  border-radius: 50px;
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+.services .questions {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.services .questions h1 {
+  font-size: 35px;
+}
+
+.services .questions .details {
+  background: #252525;
+  padding: 30px 20px;
+}
+
+.services .questions .details details {
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
   cursor: pointer;
-  margin: 20px 5px;
-  font-weight: bold;
-  color: #2CC068;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.services .questions .details details:nth-child(1) {
+  padding-top: 0;
+  margin-top: 5px;
+}
+
+.services .questions .details details summary {
+    font-size: 20px;
+    color: #fff;
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.services .questions .details details p {
+  color: #eeeeee;
+  font-weight: initial;
+  font-size: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -56,6 +106,14 @@
   }
 
   .services .cards .card {
-    margin: 20px 0;
+    margin: 10px 0;
+  }
+
+  .services .questions .details details {
+    cursor: none;
+  }
+
+  .services .cards .card p {
+    text-align: justify;
   }
 }

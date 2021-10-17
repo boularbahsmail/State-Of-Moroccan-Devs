@@ -29,27 +29,19 @@ code {
 
 .container {
   max-width: 1200px;
-  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.backtotop {
-  height: 50px;
-  width: 50px;
-  background: linear-gradient(to right,  #2EE068, #2AA068);
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  cursor: pointer;
-  border-radius: 50%;
-  opacity: 0;
-}
+.open
+  body {
+    background: red;
+  }
 
-.show {
-  opacity: 1;
-}
-
-.hide {
-  opacity: 0;
+.divider {
+  height: 1px;
+  width: 44px;
+  background: #252525;
 }
 
 h1, h2 {
@@ -66,4 +58,10 @@ p {
 
 button:hover {
   transform: scale(1.02);
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    cursor: none;
+  }
 }
