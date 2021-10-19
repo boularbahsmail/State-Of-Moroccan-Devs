@@ -14,11 +14,13 @@
   text-decoration: none;
   color: #252525;
   margin: 0 10px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .header header h2 a {
   margin: 0;
+  font-size: 19px;
 }
 
 .header header .bars {
@@ -30,7 +32,7 @@
 
 .header header .bars span {
   height: 2px;
-  width: 30px;
+  width: 33px;
   background: #303030;
   margin: 4px 0;
   transition: 0.2s;
@@ -58,7 +60,7 @@
 .bars.open span:nth-child(3) {
   transform: rotate(45deg);
   transform-origin: center;
-  margin-top: -6px;
+  margin-top: -5px;
   background: #fff;
 }
 
